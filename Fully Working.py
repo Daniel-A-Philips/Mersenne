@@ -22,7 +22,5 @@ for i in range(1, maxnum, 2):  # generate up to M20, found in 1961
     if prime(i) and mersenne(i):
         b = ((2 ** i) - 1)
         print("✓   2^"+str(i)+" -1")
-        print(str(b)+"\n\n")
-a.close()
 print("done")
 
